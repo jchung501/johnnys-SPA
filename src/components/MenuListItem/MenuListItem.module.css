@@ -7,7 +7,7 @@
     padding: 2vmin;
     color: var(--text-light);
     background-color: var(--white);
-    border: .1vmin solid var(--tan-3);
+    border: .1vmin solid black;
     border-radius: 1vmin;
     font-size: 4vmin;
   }
@@ -34,4 +34,6 @@
       width: 150px;
       align-items: center;
       margin-left: 35px;
+      border-radius: 5px;
+      border: 1px solid black;
   }
