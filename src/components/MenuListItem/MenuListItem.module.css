@@ -6,7 +6,7 @@
     margin-bottom: 3vmin;
     padding: 2vmin;
     color: var(--text-light);
-    background-color: var(--white);
+    background-color: white;
     border: .1vmin solid black;
     border-radius: 1vmin;
     font-size: 4vmin;
@@ -27,6 +27,7 @@
     font-size: 2vw;
     text-align: center;
     color: black;
+    font-family:'Courier New', Courier, monospace;
   }
 
   .MenuListItem img {
