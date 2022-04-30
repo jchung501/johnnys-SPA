@@ -18,11 +18,11 @@ export default function OrderDetail({ order, handleChangeQty, handleCheckout }) 
       <div className={styles.OrderDetail}>
         <div className={styles.sectionHeading}>
           {order.isPaid ?
-            <span>ORDER <span className="smaller">{order.orderId}</span></span>
+            <span>Order <span className="smaller">{order.orderId}</span></span>
             :
-            <span>NEW ORDER </span>
+            <span>New Order </span>
           }
-          <span>{new Date(order.updatedAt).toLocaleDateString()}</span>
+          <span className="date">{new Date(order.updatedAt).toLocaleDateString()}</span>
         </div>
         <div className={`${styles.lineItemContainer} flex-ctr-ctr flex-col scroll-y`}>
           {lineItems.length ?
@@ -36,7 +36,7 @@ export default function OrderDetail({ order, handleChangeQty, handleCheckout }) 
                     className="btn-sm"
                     onClick={handleCheckout}
                     disabled={!lineItems.length}
-                  >CHECKOUT</button>
+                  >Checkout</button>
                 }
                 <span>{order.totalQty}</span>
                 <span className={styles.right}>${order.orderTotal.toFixed(2)}</span>
