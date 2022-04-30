@@ -13,8 +13,8 @@
   }
   
   .MenuListItem .emoji {
-    height: 8vw;
-    width: 8vw;
+    height: 25px;
+    width: 35px;
     font-size: 4vw;
     background-color: var(--tan-1);
     border: .1vmin solid var(--tan-3);
@@ -35,5 +35,12 @@
   .MenuListItem .name {
     font-size: 2vw;
     text-align: center;
-    color: var(--text-light);
+    color: black;
+  }
+
+  .MenuListItem img {
+      height: 100px;
+      width: 100px;
+      align-items: center;
+      margin-left: 65px;
   }

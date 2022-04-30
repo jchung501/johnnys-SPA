@@ -19,9 +19,9 @@ const Item = require('../models/item');
 
   await Item.deleteMany({});
   const items = await Item.create([
-    {name: 'Spicy Crab Salad', img: 'https://www.wellseasonedstudio.com/wp-content/uploads/2020/07/Chopsticks-picking-up-spicy-kani-salad-from-a-plate.jpg', category: categories[0], price: 10.95},
+    {name: 'Spicy Crab Salad', img: 'https://www.wellseasonedstudio.com/wp-content/uploads/2020/07/Kani-salad-recipe-in-a-bowl-with-tobiko.jpg', category: categories[0], price: 10.95},
     {name: 'Miso Soup', img: 'https://www.pressurecookrecipes.com/wp-content/uploads/2021/05/miso-soup.jpg', category: categories[0], price: 2.95},
-    {name: 'Edamame', img: 'https://peasandcrayons.com/wp-content/uploads/2018/02/quick-easy-spicy-sambal-edamame-recipe-2.jpg', category: categories[0], price: 4.95},
+    {name: 'Edamame', img: 'https://images-gmi-pmc.edge-generalmills.com/de062ca6-eb9e-463f-afec-35dbbfedd525.jpg', category: categories[0], price: 4.95},
     {name: 'Gyoza', img: 'https://www.tastythais.com/wp-content/uploads/2020/05/Homemade-Gyoza-Pan-Fried-Steamed-1200.jpg', category: categories[0], price: 6.95},
     {name: 'California Roll', img: 'https://www.pressurecookrecipes.com/wp-content/uploads/2021/02/california-roll.jpg', category: categories[1], price: 8.95},
     {name: 'Spicy Tuna Roll', img: 'https://tiger-corporation-us.com/wp-content/uploads/2019/08/spicy-tuna-roll-900x600.jpg', category: categories[1], price: 10.95},
@@ -35,12 +35,12 @@ const Item = require('../models/item');
     {name: 'Beef Pho', img: 'https://assets.bonappetit.com/photos/601185e9e0a941bb1291e9e2/1:1/w_2560%2Cc_limit/GoLive-Beef-Pho.jpg', category: categories[3], price: 13.95},
     {name: 'Ramen Egg', img: 'https://drivemehungry.com/wp-content/uploads/2021/09/ramen-eggs-soy-sauce-marinade-1.jpg', category: categories[4], price: 2.95},
     {name: 'Seaweed Salad', img: 'https://www.asiancaucasian.com/wp-content/uploads/2021/01/Japanese-Seaweed-Salad-w-Sushi-3_600x400.jpg', category: categories[4], price: 4.95},
-    {name: 'Matcha Crepe Cake', img: 'https://www.justonecookbook.com/wp-content/uploads/2019/11/Matcha-Mille-Crepe-Cake-4646-III.jpg', category: categories[5], price: 9.95},
+    {name: 'Matcha Crepe Cake', img: 'https://www.justonecookbook.com/wp-content/uploads/2019/11/Matcha-Mille-Crepe-Cake-4620-I-1-500x375.jpg', category: categories[5], price: 9.95},
     {name: 'Matcha Mochi', img: 'https://www.justonecookbook.com/wp-content/uploads/2019/07/Green-Tea-Mochi-9189-I.jpg', category: categories[5], price: 3.95},
     {name: 'Matcha Ice Cream', img: 'https://www.rotinrice.com/wp-content/uploads/2011/08/MatchaIceCream-1.jpg', category: categories[5], price: 2.95},
-    {name: 'Fluffy Cheesecake', img: 'https://images.squarespace-cdn.com/content/v1/5e185ce3e56525704fdae715/1627468824716-ZW8D9JGOUO7RF9RJZV65/Cake1.jpg', category: categories[5], price: 7.95},
-    {name: 'Midori Sour', img: 'https://www.shakedrinkrepeat.com/wp-content/uploads/2021/04/Midori-Sour-4.jpg', category: categories[6], price: 9.95},
-    {name: 'Sake', pic: 'https://www.kanpai.eu/img/wat-is-sake-kanpai.jpg', category: categories[6], price: 4.95},
+    {name: 'Fluffy Cheesecake', img: 'https://www.foxyfolksy.com/wp-content/uploads/2016/10/japanese-cheesecake-t.jpg', category: categories[5], price: 7.95},
+    {name: 'Midori Sour', img: 'https://makemeacocktail.com/images/cocktails/8791/midori-sour-720x720-recipe.jpg', category: categories[6], price: 9.95},
+    {name: 'Sake', img: 'https://www.kanpai.eu/img/wat-is-sake-kanpai.jpg', category: categories[6], price: 4.95},
     {name: 'Japanese Whiskey', img: 'https://whisky.suntory.com/sites/default/files/2019-02/best-enjoyed-hibiki-jh.png', category: categories[6], price: 10.95},
     {name: 'Kirin', img: 'https://www.newyorkbeverage.com/wp-content/uploads/2021/03/kirinichibancans.jpg', category: categories[6], price: 3.95},
     {name: 'Sapporo', img: 'https://beverages2u.com/wp-content/uploads/2021/06/sapporo-12-oz-can_01.jpg', category: categories[6], price: 3.95}
