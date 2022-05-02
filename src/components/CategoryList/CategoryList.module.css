@@ -45,5 +45,6 @@
   }
   
   li:hover{
+    cursor: pointer;
     letter-spacing: 5px;
   }

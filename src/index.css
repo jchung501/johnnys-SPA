@@ -132,7 +132,7 @@ button, a.button {
   font-weight: bold;
   text-decoration: none;
   text-align: center;
-  border: .1vmin solid red;
+  border: .1vmin solid white;
   border-radius: .5vmin;
   outline: none;
   cursor: pointer;
