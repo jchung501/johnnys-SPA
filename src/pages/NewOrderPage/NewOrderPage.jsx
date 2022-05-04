@@ -16,6 +16,7 @@ export default function NewOrderPage({ user, setUser }) {
   const [cart, setCart] = useState(null);
   const categoriesRef = useRef([]);
   const navigate = useNavigate();
+  const [search, setSearch] = useState("");
 
   useEffect(function() {
     async function getItems() {
@@ -54,11 +55,17 @@ export default function NewOrderPage({ user, setUser }) {
     navigate('/orders');
   }
 
+  async function handleSearch(e) {
+      setSearch(e.target.value);
+  };
+
+  const filtered = !search ? menuItems.filter(item => item.category.name === activeCat) : menuItems.filter((food) => food.name.toLowerCase().includes(search.toLowerCase()));
+
   return (
     <main className={styles.NewOrderPage}>
       <aside>
         <Logo />
-        <SearchBar />
+        <SearchBar value={search} onChange={handleSearch} />
         <CategoryList
           categories={categoriesRef.current}
           cart={setCart}
@@ -67,8 +74,9 @@ export default function NewOrderPage({ user, setUser }) {
         <Link to="/orders" className="button btn-sm">Order History</Link>
         <UserLogOut user={user} setUser={setUser} />
       </aside>
-      <MenuList
-        menuItems={menuItems.filter(item => item.category.name === activeCat)}
+      <MenuList 
+        // menuItems={menuItems.filter(item => item.category.name === activeCat)}
+        menuItems={filtered}
         handleAddToOrder={handleAddToOrder}
       />
       <OrderDetail
