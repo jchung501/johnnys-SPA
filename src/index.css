@@ -21,7 +21,7 @@ body {
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: red;
+  background-color: #E2E8F0;
   padding: 2vmin;
   height: 100vh;
 }
@@ -84,7 +84,7 @@ code {
 
 .form-container {
   padding: 3vmin;
-  background-color: var(--tan-1);
+  background-color: #E2E8F0;
   border: .1vmin solid black;
   border-radius: 1vmin;
 }
@@ -120,14 +120,14 @@ input {
 }
 
 input:focus {
-  border-color: red;
+  border-color: black;
 }
 
 button, a.button {
   margin: 1vmin;
   padding: 1vmin;
-  color: var(--white);
-  background-color: red;
+  color: black;
+  background-color: #E2E8F0;
   font-size: 2vmin;
   font-weight: bold;
   text-decoration: none;
@@ -150,7 +150,8 @@ button.btn-xs {
 
 button:disabled, form:invalid button[type="submit"] {
   cursor: not-allowed;
-  background-color: gray;
+  background-color: #E2E8F0;
+  border: 1px solid black;
 }
 
 button[type="submit"] {
