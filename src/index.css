@@ -13,6 +13,9 @@
   --blush: #DB959D;
   --black: #000000;
   --smoky: #12110F;
+  --skobeloff: #297373;
+  --aqua: #85FFC7;
+  --oxford: #102542;
 }
 
 *, *:before, *:after {
@@ -26,7 +29,7 @@ body {
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--blush);
+  background-color: var(--oxford);
   padding: 2vmin;
   height: 100vh;
 }
@@ -132,7 +135,7 @@ button, a.button {
   margin: 1vmin;
   padding: 1vmin;
   color: var(--white);
-  background-color: var(--pale);
+  background-color: var(--oxford);
   font-size: 2vmin;
   font-weight: bold;
   text-decoration: none;
@@ -151,12 +154,18 @@ button.btn-sm {
 
 button.btn-sm:hover {
   transition: all 200ms ease-in-out 0ms;
-  background-color: var(--blush);
+  background-color: var(--skobeloff);
 }
 
 button.btn-xs {
-  font-size: 1vmin;
+  font-size: 1.5vmin;
   padding: .4vmin .5vmin;
+  width: 15px;
+}
+
+button.btn-xs:hover {
+  transition: all 240ms ease-in-out 0s;
+  background-color: var(--skobeloff);
 }
 
 button:disabled, form:invalid button[type="submit"] {
