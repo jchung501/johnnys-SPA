@@ -8,6 +8,11 @@
   --orange: #F67F00;
   --text-light: #968c84;
   --text-dark: #615954;
+  --pale: #D4C4C5;
+  --rufous: #A72608;
+  --blush: #DB959D;
+  --black: #000000;
+  --smoky: #12110F;
 }
 
 *, *:before, *:after {
@@ -21,7 +26,7 @@ body {
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #E2E8F0;
+  background-color: var(--blush);
   padding: 2vmin;
   height: 100vh;
 }
@@ -126,8 +131,8 @@ input:focus {
 button, a.button {
   margin: 1vmin;
   padding: 1vmin;
-  color: black;
-  background-color: #E2E8F0;
+  color: var(--white);
+  background-color: var(--pale);
   font-size: 2vmin;
   font-weight: bold;
   text-decoration: none;
@@ -141,6 +146,12 @@ button, a.button {
 button.btn-sm {
   font-size: 1.5vmin;
   padding: .6vmin .8vmin;
+  height: 40px;
+}
+
+button.btn-sm:hover {
+  transition: all 200ms ease-in-out 0ms;
+  background-color: var(--blush);
 }
 
 button.btn-xs {

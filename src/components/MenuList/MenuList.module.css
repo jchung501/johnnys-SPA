@@ -5,4 +5,7 @@
     margin: 3vmin 0;
     padding: 3vmin;
     overflow-y: scroll;
+    /* background-color: var(--blush); */
+    /* border-radius: 5px; */
+    /* border: .1vmin solid transparent; */
     }

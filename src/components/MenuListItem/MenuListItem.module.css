@@ -38,3 +38,9 @@
       border-radius: 5px;
       border: 1px solid black;
   }
+
+  .MenuListItem:hover {
+      transition: all 240ms ease-in-out 0s;
+      border: 1px solid var(--rufous);
+      opacity: 0.5;
+  }
