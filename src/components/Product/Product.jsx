@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Product({menuItem, handleAddToOrder}) {
     return (
-        <body>
+        <main>
             <div className={styles.container} >
                 <div className={`${styles.productImage} ${menuItem.name}`}></div>
                     <div className={styles.size}>
@@ -27,6 +27,6 @@ export default function Product({menuItem, handleAddToOrder}) {
                         {menuItem.name}
                     </div>
                 </div>
-        </body>
+        </main>
     )
 }

@@ -32,7 +32,7 @@ body {
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--white);
+  background-color: var(--oxford);
   padding: 2vmin;
   height: 100vh;
 }
@@ -207,4 +207,28 @@ button[type="submit"]:hover {
 
 .Edamame {
   background-image: url(https://images-gmi-pmc.edge-generalmills.com/de062ca6-eb9e-463f-afec-35dbbfedd525.jpg)
+}
+
+.Miso {
+  background-image: url(https://www.pressurecookrecipes.com/wp-content/uploads/2021/05/miso-soup.jpg)
+}
+
+.Crab {
+  background-image: url(https://www.wellseasonedstudio.com/wp-content/uploads/2020/07/Kani-salad-recipe-in-a-bowl-with-tobiko.jpg)
+}
+
+.California {
+  background-image: url(https://www.pressurecookrecipes.com/wp-content/uploads/2021/02/california-roll.jpg)
+}
+
+.Rainbow {
+  background-image: url(https://www.mashed.com/img/gallery/rainbow-roll-what-you-should-know-before-ordering/l-intro-1618943604.jpg)
+}
+
+.Tempura {
+  background-image: url(https://www.mashed.com/img/gallery/shrimp-tempura-roll-what-you-should-know-before-ordering/l-intro-1628971551.jpg)
+}
+
+.Tuna {
+  background-image: url(https://tiger-corporation-us.com/wp-content/uploads/2019/08/spicy-tuna-roll-900x600.jpg)
 }

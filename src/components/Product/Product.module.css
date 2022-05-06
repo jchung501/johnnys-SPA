@@ -16,7 +16,7 @@
   }
 
 .productImage {
-    grid-column: 1/span 2;
+    grid-column: 1 /span 2;
     grid-row: 1 /span 2;
     width: var(--size);
     height: var(--size);
@@ -35,7 +35,7 @@
       20% 50%,
       20% 50%
     );
-    transition: all 0.7s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+    transition: all 2s cubic-bezier(0.895, 0.03, 0.685, 0.22);
   }
 
 h4,
@@ -106,6 +106,8 @@ span {
   justify-self: center;
   z-index: 1;
   transition: all 0.7s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+  color: var(--white);
+  font-size: 35px;
 }
 
 .productImage:hover {
