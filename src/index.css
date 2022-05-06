@@ -16,6 +16,9 @@
   --skobeloff: #297373;
   --aqua: #85FFC7;
   --oxford: #102542;
+  --size: 400px;
+  --blue: #aad5ff;
+  --lb: rgba(0, 0, 0, 0.5);
 }
 
 *, *:before, *:after {
@@ -29,7 +32,7 @@ body {
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--oxford);
+  background-color: var(--white);
   padding: 2vmin;
   height: 100vh;
 }
@@ -113,7 +116,7 @@ label {
   font-size: 2vmin;
   display: flex;
   align-items: center;
-  font-family: 'Papyrus';
+  font-family: 'Courier New', Courier, monospace;
   color: black;
 }
 
@@ -191,4 +194,17 @@ button:disabled, form:invalid button[type="submit"] {
 button[type="submit"] {
   grid-column: span 2;
   margin: 1vmin 0 0;
+}
+
+button[type="submit"]:hover {
+  transition: all 200ms ease-in-out 0ms;
+  background: var(--skobeloff);
+}
+
+.Gyoza {
+  background-image: url(https://www.tastythais.com/wp-content/uploads/2020/05/Homemade-Gyoza-Pan-Fried-Steamed-1200.jpg)
+}
+
+.Edamame {
+  background-image: url(https://images-gmi-pmc.edge-generalmills.com/de062ca6-eb9e-463f-afec-35dbbfedd525.jpg)
 }
