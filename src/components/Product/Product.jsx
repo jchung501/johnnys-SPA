@@ -16,7 +16,7 @@ export default function Product({menuItem, handleAddToOrder}) {
                     </div>
                     <div className={styles.price}>
                         <h4>PRICE</h4>
-                        <span>${menuItem.price.toFixed(2)}</span>
+                        <span className='span-price'>${menuItem.price.toFixed(2)}</span>
                     </div>
                     <div className={styles.add}>
                         <button className="btn-add" onClick={() => handleAddToOrder(menuItem._id)}>

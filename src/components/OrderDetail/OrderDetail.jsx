@@ -18,9 +18,9 @@ export default function OrderDetail({ order, handleChangeQty, handleCheckout }) 
       <div className={styles.OrderDetail}>
         <div className={styles.sectionHeading}>
           {order.isPaid ?
-            <span>Order <span className="smaller">{order.orderId}</span></span>
+            <span className='align-ctr'>Order <span className="smaller">{order.orderId}</span></span>
             :
-            <span>New Order </span>
+            <span className='align-ctr'>New Order </span>
           }
           <span className="date">{new Date(order.updatedAt).toLocaleDateString()}</span>
         </div>
@@ -38,7 +38,7 @@ export default function OrderDetail({ order, handleChangeQty, handleCheckout }) 
                     disabled={!lineItems.length}
                   >Checkout</button>
                 }
-                <span>{order.totalQty}</span>
+                <span className='align-ctr'>{order.totalQty}</span>
                 <span className={styles.right}>${order.orderTotal.toFixed(2)}</span>
               </section>
             </>
