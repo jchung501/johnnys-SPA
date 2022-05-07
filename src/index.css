@@ -244,3 +244,61 @@ button[type="submit"]:hover {
 .Spider {
   background-image: url(https://media-cdn.tripadvisor.com/media/photo-m/1280/1a/bb/56/2b/fried-sushi-big-roll.jpg)
 }
+
+.Tonkatsu {
+  background-image: url(https://i1.wp.com/seonkyounglongest.com/wp-content/uploads/2020/09/Easy-Tonkotsu-26-mini.jpg?fit=1000%2C667&ssl=1)
+}
+
+.Tsukemen {
+  background-image: url(https://thefyslife.com/wp-content/uploads/2021/10/Tsukemen-Ramen.jpg)
+}
+
+.Pho {
+  background-image: url(https://assets.bonappetit.com/photos/601185e9e0a941bb1291e9e2/1:1/w_2560%2Cc_limit/GoLive-Beef-Pho.jpg)
+}
+
+.Egg {
+  background-image: url(https://drivemehungry.com/wp-content/uploads/2021/09/ramen-eggs-soy-sauce-marinade-1.jpg)
+}
+
+.Seaweed {
+  background-image: url(https://www.asiancaucasian.com/wp-content/uploads/2021/01/Japanese-Seaweed-Salad-w-Sushi-3_600x400.jpg)
+}
+
+.Cheesecake {
+  background-image: url(https://www.foxyfolksy.com/wp-content/uploads/2016/10/japanese-cheesecake-t.jpg)
+}
+
+.Crepe {
+  background-image: url(https://www.justonecookbook.com/wp-content/uploads/2019/11/Matcha-Mille-Crepe-Cake-4620-I-1-500x375.jpg)
+}
+
+.Ice {
+  background-image: url(https://www.rotinrice.com/wp-content/uploads/2011/08/MatchaIceCream-1.jpg)
+}
+
+.Mochi {
+  background-image: url(https://www.justonecookbook.com/wp-content/uploads/2019/07/Green-Tea-Mochi-9189-I.jpg)
+}
+
+.Whiskey {
+  background-image: url(https://whisky.suntory.com/sites/default/files/2019-02/best-enjoyed-hibiki-jh.png)
+}
+
+.Kirin {
+  background-image: url(https://www.newyorkbeverage.com/wp-content/uploads/2021/03/kirinichibancans.jpg)
+}
+
+.Midori {
+  background-image: url(https://makemeacocktail.com/images/cocktails/8791/midori-sour-720x720-recipe.jpg);
+  justify-content: center;
+}
+
+.Sake {
+  background-image: url(https://www.kanpai.eu/img/wat-is-sake-kanpai.jpg)
+}
+
+.Sapporo {
+  background-image: url(https://beverages2u.com/wp-content/uploads/2021/06/sapporo-12-oz-can_01.jpg)
+}
+
