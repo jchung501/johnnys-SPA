@@ -2,7 +2,6 @@
   "engines": {
     "node": "14.17"
   },
-  "proxy": "http://localhost:3001",
   "name": "mern-infrastructure",
   "version": "0.1.0",
   "private": true,
