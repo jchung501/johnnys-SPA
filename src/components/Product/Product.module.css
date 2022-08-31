@@ -13,7 +13,7 @@
     justify-items: center;
     align-items: center;
     filter: drop-shadow(0px 0px 7px rgba(1, 1, 1, .7));
-    margin-left: 50px;
+    margin-left: 80px;
   }
 
 .productImage {
@@ -142,4 +142,5 @@ span {
   opacity: 1;
   transform: rotate(-15deg);
   transition: all 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+  /* color: red; */
 }
