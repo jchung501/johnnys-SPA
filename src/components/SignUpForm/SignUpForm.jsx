@@ -11,24 +11,24 @@ state = {
 };
 
 handleChange = (evt) => {
-  this.setState({
-    [evt.target.name]: evt.target.value,
-    error: ''
-  });
+  this.setState({...this.state, [evt.target.name]: evt.target.value,
+    error: ''});
 };
 
 handleSubmit = async (evt) => {
   evt.preventDefault();
   try {
-    const formData = {...this.state};
-    delete formData.confirm;
-    delete formData.error;
+    const {name, email, password} = this.state;
+    const formData = {name, email, password};
+    // delete formData.confirm;
+    // delete formData.error;
     // The promise returned by the signUp service method
     // will resolve to the user object included in the
     // payload of the JSON Web Token (JWT)
     const user = await signUp(formData);
+    localStorage.setItem('token', user)
     // Baby step
-    this.props.setUser(user);
+    // this.props.setUser(user);
   } catch {
     // An error happened on the server
     this.setState({ error: 'Sign Up Failed - Try Again' });

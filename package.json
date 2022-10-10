@@ -1,6 +1,6 @@
 {
   "engines": {
-    "node": "14.17"
+    "node": "16.x"
   },
   "name": "mern-infrastructure",
   "version": "0.1.0",
